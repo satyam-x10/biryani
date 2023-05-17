@@ -1,0 +1,123 @@
+*{
+/* reset */
+margin: 0;
+padding: 0;
+}
+li{
+    /* text-decoration: none; */
+    list-style: none;
+}
+body{
+    /* background-color: rgb(244, 252, 122); */
+    background-color: rgb(19, 223, 210);
+}
+:root{
+--color1: pink;
+--color2: rgb(160, 115, 115);
+--mar1:4px 44px;
+--pad1:4px 14px;
+--bor1: solid 2px black;
+--borr1: 6px;
+
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--pad1);
+    border: var(--bor1);
+    border-radius: var(--borr1);
+    margin: 0px 2px;
+    background-color: orange;
+    
+}
+#navul{
+    display: flex;
+    /* border: var(--bor1); */
+    border-radius: var(--borr1);
+    
+}
+#navul li{
+    /* display: flex; */
+    margin: var(--mar1);
+    border: var(--bor1);
+    border-radius: var(--borr1);
+    padding: var(--pad1);
+    background-color: rgb(19, 223, 210);
+}
+#navul li:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#helpnav li:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#setting li:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#navul li img{
+height: 35px;
+align-items: center;
+justify-content: center;}
+#logo img{
+    height:70px;
+    border: var(--bor1);
+    border-radius: var(--borr1);
+}
+#helpnav li{
+    border: var(--bor1);
+    border-radius: var(--borr1);
+    padding: var(--pad1);
+    margin: var(--mar1);
+    background-color:yellow;
+}
+.helps{
+    /* border: var(--bor1); */
+    border-radius: var(--borr1);
+}
+#notice{
+    text-align: center;
+    border: var(--bor1);
+    border-radius: var(--borr1);
+    padding: var(--pad1);
+    /* margin: var(--mar1); */
+    margin: 4px 2px;
+    display: block;
+}
+#search{
+    text-align: center;
+    border: var(--bor1);
+    border-radius: var(--borr1);
+    padding: var(--pad1);
+    margin: 4px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#setting ul {
+    display: flex;
+}
+#setting li {
+   border: var(--bor1);
+   padding: var(--pad1);
+    margin: 4px 2px;
+    background-color: rgb(255 184 0);
+    border-radius: var(--borr1);
+}
+#setting img{
+    height: 30px;
+}
+
+#logo1 img{
+    height: 52px;
+}
+
+#searchbar img{
+    height: 12px;
+}
