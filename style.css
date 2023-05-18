@@ -15,8 +15,11 @@ body{
 --color1: pink;
 --color2: rgb(160, 115, 115);
 --mar1:4px 44px;
+--mar2:1px 14px;
+--pad2:1px 6px;
 --pad1:4px 14px;
 --bor1: solid 2px black;
+--bor2: solid 0px black;
 --borr1: 6px;
 
 }
@@ -44,6 +47,12 @@ body{
     border-radius: var(--borr1);
     padding: var(--pad1);
     background-color: rgb(19, 223, 210);
+}
+.five{
+    border: var(--bor2);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 #navul li:hover{
     background-color: black;
@@ -120,4 +129,79 @@ justify-content: center;}
 
 #searchbar img{
     height: 12px;
+}
+#homepage{
+    display: grid;
+    z-index: 0;
+    /* grid-gap: 1 rem; */
+
+    grid-template-areas: 
+    'home1 home2 home3 home4'
+    'home5 home6 home7 home8'
+    'home9 home10 home11 home12'
+    
+    ;
+    justify-content: space-between;
+    
+}.down{
+    display: flex;
+    margin: 4px 0px;
+}
+.homer{
+    border: var(--bor1);
+    padding: var(--pad1);
+    margin:10px 10px;
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+}.cart a{
+    border: var(--bor1);
+    margin: var(--mar2);
+    padding: var(--pad2);
+}
+.buy a{
+    border: var(--bor1);
+    margin: var(--mar2);
+    padding: var(--pad2);
+}
+#home1{
+    grid-area: home1;
+}
+#home2{
+    grid-area: home2;
+}
+#home3{
+    grid-area: home3;
+}
+#home4{
+    grid-area: home4;
+}
+#home5{
+    grid-area: home5;
+}
+#home6{
+    grid-area: home6;
+}
+#home7{
+    grid-area: home7;
+}
+#home8{
+    grid-area: home8;
+}
+#home9{
+    grid-area: home9;
+}
+#home10{
+    grid-area: home10;
+}
+#home11{
+    grid-area: home11;
+}
+#home12{
+    grid-area: home12;
+}
+#homepage img{
+
+    height:100px;
+    width:150px;
 }
